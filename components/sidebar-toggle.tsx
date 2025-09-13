@@ -22,10 +22,10 @@ export function SidebarToggle({
                     data-testid="sidebar-toggle-button"
                     onClick={toggleSidebar}
                     variant="outline"
-                    className="h-8 px-2 md:h-10 md:px-3 bg-white/10 backdrop-blur-xl border-white/20 text-white hover:bg-white/20 hover:text-white hover:border-white/30 transition-all duration-200 rounded-xl"
+                    className="h-8 mr-2 px-2 md:h-10 md:px-3 backdrop-blur-xl text-white transition-all duration-200 rounded-xl"
                 >
                     <SidebarLeftIcon size={16} />
-                    <span className="hidden md:inline-block ml-2">Menu</span>
+                    {/*<span className="hidden md:inline-block ml-2">Menu</span>*/}
                 </Button>
             </TooltipTrigger>
             <TooltipContent align="start" className="hidden md:block bg-black/80 backdrop-blur-sm border-white/20">

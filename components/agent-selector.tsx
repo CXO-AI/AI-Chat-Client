@@ -100,7 +100,7 @@ export function AgentSelector({
           <Button
               data-testid="agent-selector"
               variant="outline"
-              className="hidden focus:outline-hidden focus:ring-0 md:flex md:h-fit md:px-2"
+              className=" focus:outline-hidden focus:ring-0 md:flex md:h-fit md:px-2"
           >
             {selectedAgent?.icon}
             {selectedAgent?.label}
