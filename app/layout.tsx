@@ -7,9 +7,9 @@ import './globals.css';
 import { SessionProvider } from 'next-auth/react';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://cxo.veezify.com'),
-  title: 'CXO - AI',
-  description: 'CXO - AI',
+  metadataBase: new URL('https://super.veezify.com'),
+  title: 'SUPER AI',
+  description: 'SUPER',
 };
 
 export const viewport = {
