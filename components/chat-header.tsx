@@ -33,7 +33,7 @@ function PureChatHeader({
 
                   <AgentSelector
                       chatId={chatId}
-                      selectedAgentType={"cto"}
+                      selectedAgentType={"main"}
                   />
               )}
           </div>

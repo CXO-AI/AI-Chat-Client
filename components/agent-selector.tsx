@@ -20,7 +20,7 @@ import {
   SettingsIcon,
   CheckCircle} from "lucide-react";
 
-export type AgentType = 'cto' | 'cfo' | 'ceo' | 'cmo' | 'coo' | 'cio';
+export type AgentType = 'main';
 
 const agents: Array<{
   id: AgentType;
@@ -29,41 +29,11 @@ const agents: Array<{
   icon: ReactNode;
 }> = [
   {
-    id: 'ceo',
-    label: 'CEO',
-    description: 'Chief Executive Officer - Strategic leadership and vision',
+    id: 'main',
+    label: 'MAIN',
+    description: 'MAIN',
     icon: <CrownIcon />,
-  },
-  {
-    id: 'cto',
-    label: 'CTO',
-    description: 'Chief Technology Officer - Technology strategy and innovation',
-    icon: <CodeIcon />,
-  },
-  {
-    id: 'cfo',
-    label: 'CFO',
-    description: 'Chief Financial Officer - Financial strategy and planning',
-    icon: <DollarSignIcon />,
-  },
-  {
-    id: 'cmo',
-    label: 'CMO',
-    description: 'Chief Marketing Officer - Marketing and brand strategy',
-    icon: <MegaphoneIcon />,
-  },
-  {
-    id: 'coo',
-    label: 'COO',
-    description: 'Chief Operating Officer - Operations and processes',
-    icon: <SettingsIcon />,
-  },
-  {
-    id: 'cio',
-    label: 'CIO',
-    description: 'Chief Information Officer - Information systems and data',
-    icon: <CodeIcon />,
-  },
+  }
 ];
 
 export function AgentSelector({
